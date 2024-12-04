@@ -1,13 +1,16 @@
-public class Monster{
+public class Monster {
+    public Monster(String s, int i) {
+    }
 
-//    Конструктор
-    public Monster(String name, int damage){
+    //    Конструктор
+
+
+
+    public void growl() {
 
     }
-    public void growl(){
-       growl();
-    }
-    public void attack(){
-        attack();
+
+    public void attack() {
+
     }
 }
