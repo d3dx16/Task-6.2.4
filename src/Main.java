@@ -21,11 +21,11 @@ but can instance objects of it and play with them.
 */
 public class Main {
     public static void main(String[] args) {
-        Zombie zombie = new Zombie("Alice");
-        zombie.attack();
-        zombie.growl();
-//        Zombie zombie2 = new Zombie("Bob");
-//        zombie2.attack();
-//        zombie2.growl();
+        Zombie zombie1 = new Zombie("Alice");
+        zombie1.attack();
+        zombie1.growl();
+        Zombie zombie2 = new Zombie("Bob");
+        zombie2.attack();
+        zombie2.growl();
     }
 }

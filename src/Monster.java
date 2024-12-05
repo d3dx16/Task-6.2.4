@@ -1,8 +1,14 @@
 public class Monster {
-    public Monster(String s, int i) {
-    }
+
 
     //    Конструктор
+//Метод для имени Set
+
+    public void name() {
+
+    }
+
+
 
 
 
@@ -11,6 +17,7 @@ public class Monster {
     }
 
     public void attack() {
-
+       int i=5;
+//        System.out.println(i);
     }
 }
