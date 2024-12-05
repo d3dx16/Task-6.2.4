@@ -1,15 +1,20 @@
 public class Monster {
 
 
-    //    Конструктор
-//Метод для имени Set
+    private final String name;
+    private final int damage;
 
-    public void name() {
+    //    Конструктор с именем и уроном
+    public Monster(String name, int damage) {
+        this.name = name;
+        System.out.print("Monster ");
+        this.damage = damage;
 
     }
 
-
-
+    public String getName() {
+        return name;
+    }
 
 
     public void growl() {
@@ -17,7 +22,6 @@ public class Monster {
     }
 
     public void attack() {
-       int i=5;
-//        System.out.println(i);
+        System.out.println("Monster "+name+" attacked with damage 5");
     }
 }
