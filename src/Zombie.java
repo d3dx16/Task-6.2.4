@@ -8,12 +8,12 @@ public class Zombie extends Monster {
     @Override
     public void attack(){
         super.attack();
-        growl();
+
     }
 
     @Override
     public void growl(){
-        System.out.print("Raaaauuughhhh");
+        System.out.print("Raaaauuughhhh ");//Сделать так что бы получилось Raaaauuughhhh Bob the Zombie growled
         super.growl();
     }
 }
