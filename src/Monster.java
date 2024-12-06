@@ -18,7 +18,7 @@ public class Monster {
 
 
     public void growl() {
-
+        System.out.println(name+" growled");
     }
 
     public void attack() {
