@@ -3,6 +3,7 @@ public class Zombie extends Monster {
     public Zombie(String name) {
         super(name + " the Zombie", 5);
         System.out.println(name+ " the Zombie was created");
+
     }
 
     @Override
