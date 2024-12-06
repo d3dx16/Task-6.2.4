@@ -9,12 +9,12 @@ public class Monster {
         this.name = name;
         System.out.print("Monster ");
         this.damage = damage;
-
+        System.out.print(damage);
     }
 
-    public String getName() {
-        return name;
-    }
+//    public String getName() {
+//        return name;
+//    }
 
 
     public void growl() {
@@ -22,6 +22,6 @@ public class Monster {
     }
 
     public void attack() {
-        System.out.println("Monster "+name+" attacked with damage 5");
+        System.out.println("Monster "+name+" attacked with damage "+damage);
     }
 }
