@@ -1,13 +1,12 @@
 public class Zombie extends Monster {
 
-    public Zombie(String name) {
-        super(name + " the Zombie", 5);
-        System.out.println(name+ " the Zombie was created");
 
-    }
 
+    //Унаследовать конструктор конструкторы не наследуются
     @Override
     public void attack(){
+        int damage=5;
+        System.out.println(damage);
         super.attack();
 
     }

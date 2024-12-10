@@ -1,27 +1,20 @@
 public class Monster {
 
 
-    private final String name;
-    private final int damage;
 
-    //    Конструктор с именем и уроном
-    public Monster(String name, int damage) {
-        this.name = name;
-        System.out.print("Monster ");
-        this.damage = damage;
-        System.out.print(damage);
+    //    Конструктор с именем и уроном Конструкторы не наследуются!
+    public String Monster(String name, int damage) {
+            name="Alice";
+            name="Bob";
+        return name;
     }
-
-//    public String getName() {
-//        return name;
-//    }
 
 
     public void growl() {
-        System.out.println(name+" growled");
+
     }
 
     public void attack() {
-        System.out.println("Monster "+name+" attacked with damage "+damage);
+
     }
 }
